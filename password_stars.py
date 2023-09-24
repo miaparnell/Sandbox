@@ -5,5 +5,3 @@ while len(user_password) < MINIMUM_LENGTH:
     user_password = input("Password: ")
 for i in range(len(user_password)):
     print("*", end='')
-
-
